@@ -1,6 +1,6 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 41.879064, lng: -87.635936 },
+    center: { lat: 17.686815, lng: 83.218483},
     zoom: 15,
 	zoomControl: false,
     scaleControl: true,
@@ -8,12 +8,12 @@ function initMap() {
   });
   
   var marker = new google.maps.Marker({
-    position: { lat: 41.879064, lng: -87.635936},
+    position: { lat: 17.686815, lng: 83.218483},
     map: map,
   });
   
   var infowindow = new google.maps.InfoWindow({
-    content:"The Famous Willis Tower in Chicago"
+    content:"The place I was born"
   });
   infowindow.open(map, marker);
 }
