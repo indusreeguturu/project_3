@@ -5,6 +5,40 @@ body{
   font-size: 1em;
   line-height: 1.5;
 }
+#map{
+  position: absolute;
+  width: 60%;
+  height: 500px;
+  right: 20%;
+  border: solid pink 5px;
+  border-radius: 10px;
+}
+
+  #me{
+	padding: 0.5em;
+	margin: auto;
+	line-height: 1.75;
+	text-align: center;
+	color: black;
+	position:relative;
+  }
+
+  figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+  }
+  
+  figure:after {
+    display: block;
+    margin: 10px;
+    flex: auto;
+
+}
 nav{
   background-color:#6d5e5c;
   width: 100%;
